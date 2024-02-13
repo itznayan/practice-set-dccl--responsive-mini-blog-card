@@ -2,12 +2,19 @@
     margin-top: 0;
     padding: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+  font-family: "Sora", sans-serif;
+ 
    
 }
+
  .img-contain{
     background-image: url(./cactus_img.jpg);
     background-size: cover;
@@ -42,6 +49,7 @@ span{
     color: #6C727F;
     width: 300px;
     margin-bottom: 15px;
+    font-size: 0.9rem;
 
 }
 
